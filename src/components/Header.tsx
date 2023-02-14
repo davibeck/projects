@@ -1,5 +1,5 @@
-import { Flex, Input, Text } from "@chakra-ui/react";
-import { generateKey } from "crypto";
+import { Flex, Input, Text, Icon } from "@chakra-ui/react";
+import {RiSearchLine} from 'react-icons/ri'
 
 export function Header() {
   return (
@@ -33,8 +33,9 @@ export function Header() {
         bg='gray.800'
         borderRadius='full'
       >
-        <Input color='gray.500' variant='unstyled' px='4' mr='4' placeholder="Buscar na plataforma" _placeholder={{color: 'gray.400'}}>
-        </Input>
+        <Input color='gray.500' variant='unstyled' px='4' mr='4' placeholder="Buscar na plataforma" _placeholder={{color: 'gray.400'}}/>
+        
+        <Icon as={RiSearchLine} fontSize='20' />
       </Flex>
     </Flex>
   );
