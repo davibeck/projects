@@ -15,10 +15,11 @@ export default function Home() {
         p="8"
         borderRadius={8}
         flexDir="column"
+        textColor="white"
       >
         <Stack spacing="4">
-          <Input name="email" type="email" label="E-mail"/>
-          <Input name="password" type="password" label="Senha"/>
+          <Input name="email" type="email" label="E-mail" />
+          <Input name="password" type="password" label="Senha" />
         </Stack>
         <Button type="submit" mt="6" colorScheme="pink" size="lg">
           Entrar
