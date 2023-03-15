@@ -37,7 +37,7 @@ export function Sidebar() {
             <Link display="flex" alignContent="center">
               <Icon as={RiInputMethodLine} fontSize="20" />
               <Text ml="4" fontWeight="medium">
-                Formmulários
+                Formulários
               </Text>
             </Link>
             <Link display="flex" alignContent="center">
