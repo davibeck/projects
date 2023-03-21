@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <Flex w="100vw" h="100vh" align="center" justify="center">
+    <Flex w="100vw" h="100vh" align="center" justify="center" bg="gray.800">
       <Flex
         as="form"
         width="100%"
@@ -15,7 +15,6 @@ export default function Home() {
         p="8"
         borderRadius={8}
         flexDir="column"
-        textColor="white"
       >
         <Stack spacing="4">
           <Input name="email" type="email" label="E-mail" />

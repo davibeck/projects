@@ -27,7 +27,7 @@ export default function UserList() {
 
         <Box flex="1" borderRadius={8} bg="gray.800" p="8">
           <Flex mb="8" justify="space-between" align="center">
-            <Heading size="lg" fontWeight="normal" color="white">
+            <Heading size="lg" fontWeight="normal">
               Usuários
             </Heading>
 
@@ -52,7 +52,7 @@ export default function UserList() {
                 <Th w="8"></Th>
               </Tr>
             </Thead>
-            <Tbody textColor="white">
+            <Tbody>
               <Tr>
                 <Td px="6">
                   <Checkbox colorScheme="pink" />
